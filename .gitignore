@@ -7,3 +7,6 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+/ConsoleApplication1/.vs/
+/ConsoleApplication1/ConsoleApplication1/bin/
+/ConsoleApplication1/ConsoleApplication1/obj/
