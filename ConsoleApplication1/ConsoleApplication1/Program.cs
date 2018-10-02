@@ -11,7 +11,6 @@ namespace ConsoleApplication1
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hej hopp du gamle galosch");
-			Console.WriteLine ojdå
 			System.Threading.Thread.Sleep(5000);
 		}
 	}
