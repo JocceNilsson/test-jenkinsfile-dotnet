@@ -1,6 +1,8 @@
-echo pwd()
 
 node {
+	
+	echo pwd()
+
 	stage 'Checkout'
 		checkout scm
 
