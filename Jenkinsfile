@@ -1,7 +1,12 @@
 
 node {
 	
-	new File(pwd()).eachFile{file->echo file.name}
+	findFiles().each{file-> 
+		echo file.name
+		echo file.path
+		echo file.length
+		echo file.directory
+	}
 
 	stage 'Checkout'
 		checkout scm
