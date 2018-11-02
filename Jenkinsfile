@@ -1,7 +1,7 @@
 
 node {
 	
-	echo pwd()
+	new File(pwd()).eachFile{file->echo file.name}
 
 	stage 'Checkout'
 		checkout scm
